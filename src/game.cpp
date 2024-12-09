@@ -164,7 +164,7 @@ void Game::beginGame(){
         dealer.printCards();
         std::cout<<lightCyan<<Print::player_border()<<def;
         player.printCards();
-        std::cout << yellow << "\nYour wins: " << player.getWins()<< lightRed <<"\nYour loses: "<<player.getLoses()<<def<<"\n";
+        std::cout << yellow << "\nYour wins: " << player.getWins()<< lightRed <<"\nYour losses: "<<player.getLoses()<<def<<"\n";
         if(s.check(player)){
             std::cout<< lightYellow << "High Score!\n"<<def;
         }

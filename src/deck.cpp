@@ -1,6 +1,7 @@
 #include "headers/deck.hpp"
 #include <iostream>
 #include <algorithm>
+#include <random>
 
 // Constructs a Deck
 void Deck::initializeDeck(){
@@ -12,7 +13,9 @@ void Deck::initializeDeck(){
             deck.push_back(c);
         }
     }
-    std::random_shuffle(deck.begin(), deck.end());
+    std::random_device rd;  // Seed for the random number engine
+std::mt19937 g(rd());   // Mersenne Twister engine
+std::shuffle(deck.begin(), deck.end(), g);
 }
 
 // Getter Function for size of deck
