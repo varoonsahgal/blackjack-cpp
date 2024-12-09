@@ -5,7 +5,7 @@
 [![GitHub](https://img.shields.io/github/license/ineshbose/Blackjack_CPP?style=flat-square)](LICENSE)
 [![Run on Repl.it](https://img.shields.io/badge/run_on_repl.it--lightgrey?style=flat-square&logo=repl.it)](https://repl.it/github/ineshbose/blackjack_cpp)
 
-Developed in order to repolish my C++ skills and as my first C++ repository. Have had many memories playing blackjack while being drunk with flatmates during the first year of uni.
+Demo:
 
 <img alt="Blackjack Demo" style="display: block; margin-left: auto; margin-right: auto; width: fit-content;" src="data/demo.gif" />
 
@@ -54,10 +54,3 @@ $ g++ src/blackjack.cpp src/card.cpp src/dealer.cpp src/deck.cpp src/game.cpp sr
 $ ./blackjack       # viola!
 ```
 
-
-## 🙌 Contributing
-Any kind of contributions / improvements are greatly appreciated!
-* To report any bug, [raise an issue](https://github.com/ineshbose/Blackjack_CPP/issues).
-* To make changes to this repository, [create a pull request](https://github.com/ineshbose/Blackjack_CPP/pulls).
-
-All contributors will be thanked and named in the README. 😄
