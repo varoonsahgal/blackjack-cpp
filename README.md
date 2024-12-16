@@ -1,10 +1,4 @@
 # ♠️ Blackjack (C++)
-[![AppVeyor](https://img.shields.io/appveyor/build/ineshbose/blackjack-cpp?label=AppVeyor&style=flat-square&logo=appveyor)](https://ci.appveyor.com/project/ineshbose/blackjack-cpp)
-[![Travis (.org)](https://img.shields.io/travis/ineshbose/blackjack_cpp?label=Travis&style=flat-square&logo=travis-ci)](https://travis-ci.org/github/ineshbose/blackjack_cpp)
-[![Codacy grade](https://img.shields.io/codacy/grade/760d6c817b324726898e79ded9aa807e?style=flat-square&logo=codacy)](https://app.codacy.com/manual/ineshbose/Blackjack_CPP)
-[![GitHub](https://img.shields.io/github/license/ineshbose/Blackjack_CPP?style=flat-square)](LICENSE)
-[![Run on Repl.it](https://img.shields.io/badge/run_on_repl.it--lightgrey?style=flat-square&logo=repl.it)](https://repl.it/github/ineshbose/blackjack_cpp)
-
 Demo:
 
 <img alt="Blackjack Demo" style="display: block; margin-left: auto; margin-right: auto; width: fit-content;" src="data/demo.gif" />
@@ -15,7 +9,7 @@ Demo:
 ### Cloning
 You should have [Git](https://git-scm.com/) installed and use the following commands in your terminal in your preferred directory
 ```sh
-$ git clone https://github.com/ineshbose/Blackjack_CPP
+$ git clone https://github.com/varoonsahgal/blackjack-cpp
 $ cd Blackjack_CPP
 ```
 else you can download a [ZIP](https://github.com/ineshbose/Blackjack_CPP/archive/master.zip).
