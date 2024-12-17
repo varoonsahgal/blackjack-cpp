@@ -15,33 +15,14 @@ $ cd Blackjack_CPP
 else you can download a [ZIP](https://github.com/ineshbose/Blackjack_CPP/archive/master.zip).
 
 ### Building / Compiling
-There are four options available ordered by recommendation. You should compile the program in the `build` directory.
-```sh
-$ cd build
-```
 
-#### CMake
-```sh
-$ cmake ..          # generates build configuration (Makefile)
-$ cmake --build .   # or `make` to build the executable
-$ ./blackjack       # viola!
-```
-
-#### Meson
-```sh
-$ meson ..          # generates build configuration (ninja)
-$ ninja             # builds the executable
-$ ./blackjack       # viola!
-```
-
-#### Make
 ```sh
 $ cd ..             # if you are in the build directory
 $ make              # builds executable based on Makefile
 $ ./blackjack       # viola!
 ```
 
-#### g++
+#### g++ compiler:
 ```sh
 $ cd ..             # if you are in the build directory
 $ g++ src/blackjack.cpp src/card.cpp src/dealer.cpp src/deck.cpp src/game.cpp src/human.cpp src/player.cpp src/print.cpp src/statistics.cpp -o blackjack
