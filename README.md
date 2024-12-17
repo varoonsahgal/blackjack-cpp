@@ -19,13 +19,13 @@ else you can download a [ZIP](https://github.com/ineshbose/Blackjack_CPP/archive
 ```sh
 $ cd ..             # if you are in the build directory
 $ make              # builds executable based on Makefile
-$ ./blackjack       # viola!
+$ ./blackjack       # voila!
 ```
 
 #### g++ compiler:
 ```sh
 $ cd ..             # if you are in the build directory
 $ g++ src/blackjack.cpp src/card.cpp src/dealer.cpp src/deck.cpp src/game.cpp src/human.cpp src/player.cpp src/print.cpp src/statistics.cpp -o blackjack
-$ ./blackjack       # viola!
+$ ./blackjack       # voila!
 ```
 
