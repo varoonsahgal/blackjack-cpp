@@ -59,3 +59,15 @@ build.ninja
 # Misc
 blackjack
 *.bin
+
+# IDE-specific files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.vscode/
+
+# VSCode specific ignores
+.vscode/
